@@ -112,7 +112,7 @@ export async function getStaticPaths() {
 must have fallback key
 - set to false it only allows the supplied paths, and shows 404 for the rest
 - set to true it allows missing paths to be dynamically generated when requests come in
-
+- set to 'blocking' to hide 404 and make user wait until page is loaded
 
 ## API Routes
 
